@@ -3,13 +3,19 @@
 // import viteLogo from '/vite.svg'
 import './App.css'
 import WelcomeMessage from './components/WelcomeMessage'
+import Header from './header'
+import MainContent from './MainContent' 
 
 function App() {
   // const [count, setCount] = useState(0)
 
   return (
     // <div>
+    <div>
       <WelcomeMessage />
+      <Header />
+      <MainContent />
+    </div>
     )
   }
   
